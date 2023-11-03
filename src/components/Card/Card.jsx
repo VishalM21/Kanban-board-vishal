@@ -69,9 +69,9 @@ const Card = ({id,tick, title,group,tag, status,photo}) => {
       
             {
                 tag?.map((elem, index) => {
-                    if(tag[index]==='Feature Request'){
+                    //if(tag[index]==='Feature Request'){
                     return <div key={index} className="tags"> <span>⚪</span> {elem}</div>
-                    }
+                   // }
                 })
             }
         </div>
