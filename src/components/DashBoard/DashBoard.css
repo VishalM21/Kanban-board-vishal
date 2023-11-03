@@ -1,0 +1,52 @@
+.dashContainer{
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+    flex-wrap: wrap;
+    background: #f2f1f4;
+    padding: 5px 10px;
+    font-size: 12px;
+    height:55vw;
+}
+
+.dashCardContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 5px;
+    width : 263px;
+  /* justify-content: space-between; */
+  
+}
+.carrd{
+   font-size: 12px;
+}
+.cardHeading1 {
+    padding: 8px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image {
+    margin-right: 5px;
+    position: relative;
+    display : inline-block;
+    width: 15px; 
+    height: 15px;  
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    position: absolute;
+    /* margin-top: 5px; */
+}
+.selectList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
